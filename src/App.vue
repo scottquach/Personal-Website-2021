@@ -2,18 +2,21 @@
   <div id="app">
     <hero></hero>
     <about-me></about-me>
+    <experience></experience>
   </div>
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
 import AboutMe from "./components/AboutMe.vue";
+import Experience from "./components/Experience.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
     AboutMe,
+    Experience
   },
 };
 </script>
