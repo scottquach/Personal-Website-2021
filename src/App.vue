@@ -34,6 +34,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #faf8f5;
   /* padding: 0 15rem 0 15rem; */
 }
 
@@ -79,5 +80,33 @@ body {
 
 .tag__icon {
   margin-right: 0.5rem;
+}
+
+.anim__bounce-in {
+ animation-name: bounce-in;
+ animation-duration: 500ms;
+ transition-timing-function: ease-out;
+ animation-fill-mode: forwards;
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  80% {
+    transform: translateY(-15px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  95%{
+    transform: translateY(-3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 </style>

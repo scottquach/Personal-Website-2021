@@ -1,16 +1,16 @@
 <template>
   <div class="hero">
     <div class="content pg-width">
-      <div class="header">
+      <div class="header anim__bounce-in">
         <div class="header__text">👋 Hi, I'm Scott Quach</div>
         <div class="line-divider"></div>
       </div>
-      <div class="summary">
+      <div class="summary anim__bounce-in">
         I’m a software engineer passionate about sustainable and thoughtful
         solutions to very human issues
       </div>
 
-      <div class="tags">
+      <div class="tags anim__bounce-in">
         <div class="tag">
           <font-awesome-icon
             class="tag__icon"
@@ -51,8 +51,19 @@
   justify-content: center;
 }
 
+.header {
+  opacity: 0;
+}
+
 .summary {
   font-size: 48px;
   text-align: start;
+  animation-delay: 400ms;
+  opacity: 0;
+}
+
+.tags {
+  animation-delay: 800ms;
+  opacity: 0;
 }
 </style>
