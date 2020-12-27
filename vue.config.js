@@ -1,3 +1,4 @@
 module.exports = {
-  outputDir: 'docs'
+  outputDir: 'docs',
+  publicPath: '/Personal-Website-2021/'
 }
