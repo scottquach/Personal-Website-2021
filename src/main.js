@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLink, faThumbtack } from '@fortawesome/free-solid-svg-icons'
@@ -21,6 +21,7 @@ library.add(faLinkedin)
 library.add(faLinkedinIn)
 library.add(faFileDownload)
 library.add(faLink)
+library.add(faGithub)
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 new Vue({

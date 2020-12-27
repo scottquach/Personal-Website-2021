@@ -42,20 +42,27 @@
         </section>
 
         <div class="tags">
-          <div class="tag">
+          <a class="tag" href="mailto: scottqglobal@gmail.com">
             <font-awesome-icon
               class="tag__icon"
               icon="envelope-open-text"
             ></font-awesome-icon>
             <div class="tag__description">scottqglobal@gmail.com</div>
-          </div>
-          <div class="tag">
+          </a>
+          <a class="tag" href="https://www.linkedin.com/in/scott-quach/" target="_blank">
             <font-awesome-icon
               class="tag__icon"
               :icon="['fab', 'linkedin']"
             ></font-awesome-icon>
-            <div class="tag__description">linkedin.com/in/scott-quach</div>
-          </div>
+            <div class="tag__description">/in/scott-quach</div>
+          </a>
+          <a class="tag" href="https://github.com/scottquach" target="_blank">
+            <font-awesome-icon
+              class="tag__icon"
+              :icon="['fab', 'github']"
+            ></font-awesome-icon>
+            <div class="tag__description">Open Source</div>
+          </a>
         </div>
       </div>
     </div>
@@ -118,6 +125,7 @@ section div {
 }
 
 .tag {
+  color: inherit;
   margin-right: 2.5rem;
 }
 </style>
