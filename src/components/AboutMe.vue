@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 85vh;
+  height: auto;
 }
 
 .content {

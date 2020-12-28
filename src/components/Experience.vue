@@ -87,7 +87,10 @@
 }
 
 .job-header:first-child {
-    font-weight: bold;
+  font-weight: bold;
+}
+.job-header:first-child .line-divider {
+  border: 0.25px solid rgba(0, 0, 0, 0.5);
 }
 
 .job-header .job-header__text {
@@ -102,6 +105,9 @@
   margin-bottom: 2rem;
   font-family: "Lato", sans-serif;
 }
+.job-content:first-child {
+  font-weight: bold;
+}
 
 .resume-prompt {
   text-align: start;
@@ -113,5 +119,16 @@
   color: inherit;
   font-family: "Lato", sans-serif;
   cursor: pointer;
+}
+
+@media screen and (max-device-width: 480px) {
+  .job-header .job-header__text {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .job-content {
+    font-size: 12px;
+  }
 }
 </style>
