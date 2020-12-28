@@ -128,4 +128,28 @@ section div {
   color: inherit;
   margin-right: 2.5rem;
 }
+
+@media screen and (max-device-width: 480px) {
+  .content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem 1fr;
+  }
+
+  .profile-image {
+    height: 25rem;
+  }
+
+  .summary {
+    margin-bottom: 1rem;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+
+  .tags {
+    margin-top: 1.5rem;
+  }
+
+}
 </style>

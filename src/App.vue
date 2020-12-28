@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <hero></hero>
-    <!-- <about-me></about-me> -->
+    <about-me></about-me>
     <!-- <experience></experience> -->
   </div>
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
-// import AboutMe from "./components/AboutMe.vue";
+import AboutMe from "./components/AboutMe.vue";
 // import Experience from "./components/Experience.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
-    // AboutMe,
+    AboutMe,
     // Experience
   },
 };
@@ -112,6 +112,10 @@ body {
 @media screen and (max-device-width: 480px) {
   .pg-width {
     width: 20rem;
+  }
+
+  .header {
+    margin-bottom: 1rem;
   }
 
   .header .header__text {
