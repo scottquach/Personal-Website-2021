@@ -1,22 +1,22 @@
 <template>
   <div id="app">
     <hero></hero>
-    <about-me></about-me>
-    <experience></experience>
+    <!-- <about-me></about-me> -->
+    <!-- <experience></experience> -->
   </div>
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
-import AboutMe from "./components/AboutMe.vue";
-import Experience from "./components/Experience.vue";
+// import AboutMe from "./components/AboutMe.vue";
+// import Experience from "./components/Experience.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
-    AboutMe,
-    Experience
+    // AboutMe,
+    // Experience
   },
 };
 </script>
@@ -37,7 +37,6 @@ body {
   background-color: #faf8f5;
   /* padding: 0 15rem 0 15rem; */
 }
-
 .pg-width {
   width: 60rem;
 }
@@ -83,10 +82,10 @@ body {
 }
 
 .anim__bounce-in {
- animation-name: bounce-in;
- animation-duration: 500ms;
- transition-timing-function: ease-out;
- animation-fill-mode: forwards;
+  animation-name: bounce-in;
+  animation-duration: 500ms;
+  transition-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes bounce-in {
@@ -101,12 +100,31 @@ body {
     opacity: 1;
     transform: translateY(0px);
   }
-  95%{
+  95% {
     transform: translateY(-3px);
   }
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .pg-width {
+    width: 20rem;
+  }
+
+  .header .header__text {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+
+  .tags {
+    flex-direction: column;
+  }
+  .tag {
+    margin-bottom: .25rem;
+    margin-right: 0rem;
   }
 }
 </style>

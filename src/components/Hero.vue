@@ -66,4 +66,10 @@
   animation-delay: 800ms;
   opacity: 0;
 }
+
+@media screen and (max-device-width: 480px) {
+  .summary {
+    font-size: 25px;
+  }
+}
 </style>
