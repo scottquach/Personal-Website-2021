@@ -1,6 +1,6 @@
 <template>
   <div class="experience">
-    <div class="content pg-width">
+    <div class="content pg-width" data-aos="fade-up">
       <div class="header">
         <div class="header__text">Work Timeline</div>
         <div class="line-divider"></div>

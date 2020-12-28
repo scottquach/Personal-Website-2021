@@ -67,7 +67,6 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-top: 3rem;
-  opacity: 0.8;
   font-family: "Lato", sans-serif;
 }
 
@@ -75,6 +74,11 @@ body {
   display: flex;
   align-items: center;
   margin-right: 5rem;
+  opacity: 0.8;
+  transition: opacity 200ms;
+}
+.tag:hover {
+  opacity: 1;
 }
 
 .tag__icon {

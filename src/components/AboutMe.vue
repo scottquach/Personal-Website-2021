@@ -1,10 +1,10 @@
 <template>
   <div class="about-me">
-    <div class="content pg-width">
-      <div class="l-profile-image">
+    <div class="content pg-width" >
+      <div class="l-profile-image" data-aos="fade-up">
         <img class="profile-image" src="../assets/profile_img.png" />
       </div>
-      <div class="l-content">
+      <div class="l-content" data-aos="fade-up">
         <div class="header">
           <div class="header__text">About Me</div>
           <div class="line-divider"></div>
@@ -49,7 +49,11 @@
             ></font-awesome-icon>
             <div class="tag__description">scottqglobal@gmail.com</div>
           </a>
-          <a class="tag" href="https://www.linkedin.com/in/scott-quach/" target="_blank">
+          <a
+            class="tag"
+            href="https://www.linkedin.com/in/scott-quach/"
+            target="_blank"
+          >
             <font-awesome-icon
               class="tag__icon"
               :icon="['fab', 'linkedin']"
@@ -150,6 +154,5 @@ section div {
   .tags {
     margin-top: 1.5rem;
   }
-
 }
 </style>

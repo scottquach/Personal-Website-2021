@@ -24,6 +24,9 @@ library.add(faLink)
 library.add(faGithub)
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 new Vue({
   render: h => h(App),
-}).$mount('#app')
+}).$mount('#app').AOS = new AOS.init({});
