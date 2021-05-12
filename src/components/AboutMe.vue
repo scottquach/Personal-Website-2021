@@ -10,7 +10,7 @@
           <div class="line-divider"></div>
         </div>
         <div class="summary">
-          I’m a recent graudate in computer science and enginnering program at
+          I’m a recent graudate in computer science and engineering at
           the University of Washington Bothell. Thanks for stopping by!
         </div>
         <section>
